@@ -1,9 +1,10 @@
+#include "server_type.h"
 #include "BaseServer.h"
-
 
 namespace OAO
 {
-	BaseServer::BaseServer()
+	BaseServer::BaseServer(server_type serverType) :
+		mServerType(serverType)
 	{
 	}
 

@@ -27,7 +27,6 @@
   <ItemGroup>
     <ClCompile Include="src\OAO_Server\BaseServer.cpp" />
     <ClCompile Include="src\OAO_Server\exit_code.cpp" />
-    <ClCompile Include="src\OAO_Server\types.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

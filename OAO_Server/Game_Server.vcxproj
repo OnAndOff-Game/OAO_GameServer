@@ -145,7 +145,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Game_Server\GameMain.h" />
     <ClInclude Include="src\Game_Server\GameServer.h" />
   </ItemGroup>
   <ItemGroup>

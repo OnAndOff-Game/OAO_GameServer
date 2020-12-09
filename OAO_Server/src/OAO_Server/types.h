@@ -21,4 +21,11 @@ namespace OAO
 		success,
 		failure,
 	};
+
+	using server_type_underlying = int16_t;
+	enum class server_type : server_type_underlying {
+		none = 0,
+		login,
+		world,
+	};
 }
