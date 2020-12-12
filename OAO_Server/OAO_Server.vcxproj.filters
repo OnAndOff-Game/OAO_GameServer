@@ -5,6 +5,9 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Connection">
+      <UniqueIdentifier>{3baf86a9-cd50-4105-9a3d-c3bce19a4239}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\OAO_Server\exit_code.h">
@@ -19,6 +22,15 @@
     <ClInclude Include="src\OAO_Server\OAO_main.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\OAO_Server\ConnectionListener.h">
+      <Filter>Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OAO_Server\ConnectionManager.h">
+      <Filter>Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OAO_Server\server_type.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\OAO_Server\BaseServer.cpp">
@@ -26,6 +38,12 @@
     </ClCompile>
     <ClCompile Include="src\OAO_Server\exit_code.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OAO_Server\ConnectionManager.cpp">
+      <Filter>Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OAO_Server\ConnectionListener.cpp">
+      <Filter>Connection</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

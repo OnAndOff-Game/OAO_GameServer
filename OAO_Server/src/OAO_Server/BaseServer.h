@@ -1,7 +1,8 @@
 #pragma once
+#include "server_type.h"
 #include "types.h"
+#include "ConnectionManager.h"
 
-class server_type;
 namespace OAO
 {
 	class BaseServer
@@ -17,5 +18,6 @@ namespace OAO
 		virtual auto LoadData() -> result = 0;
 	private:
 		server_type mServerType;
+		ConnectionManager mConnectionManager;
 	};
 }

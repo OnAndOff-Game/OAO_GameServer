@@ -28,8 +28,8 @@
     <ClInclude Include="src\OAO_Server\types.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConnectionListener.cpp" />
     <ClCompile Include="src\OAO_Server\BaseServer.cpp" />
+    <ClCompile Include="src\OAO_Server\ConnectionListener.cpp" />
     <ClCompile Include="src\OAO_Server\ConnectionManager.cpp" />
     <ClCompile Include="src\OAO_Server\exit_code.cpp" />
   </ItemGroup>

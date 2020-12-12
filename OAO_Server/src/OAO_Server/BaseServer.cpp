@@ -1,4 +1,3 @@
-#include "server_type.h"
 #include "BaseServer.h"
 
 namespace OAO
