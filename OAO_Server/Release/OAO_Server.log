@@ -1,2 +1,0 @@
-﻿MSVCRT.lib(exe_main.obj) : error LNK2001: _main 외부 기호를 확인할 수 없습니다.
-C:\Users\newdo\Downloads\OAO_GameServer-main\OAO_GameServer-main\OAO_Server\Release\OAO_Server.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
