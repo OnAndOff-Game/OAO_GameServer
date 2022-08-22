@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Connection">
+      <UniqueIdentifier>{3baf86a9-cd50-4105-9a3d-c3bce19a4239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handler">
+      <UniqueIdentifier>{4f5a4932-ab0c-4912-b4ee-b16b958f809c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{205a0854-f5ed-4f2c-ad11-fa542d45a889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packets">
+      <UniqueIdentifier>{261af5b3-548c-427c-9bb0-c7069b634e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure">
+      <UniqueIdentifier>{d3d39e2b-ba7a-4e8e-baaf-0faea705195f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\OAO_Server\exit_code.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OAO_Server\BaseServer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OAO_Server\types.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OAO_Server\OAO_main.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OAO_Server\ConnectionManager.h">
+      <Filter>Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OAO_Server\server_type.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OAO_Server\Protocol.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OAO_Server\ClientSession.h">
+      <Filter>Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketBuilder.h" />
+    <ClInclude Include="src\OAO_Server\PacketBuilder.h">
+      <Filter>Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedArray.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\OAO_Server\BaseServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OAO_Server\exit_code.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OAO_Server\ConnectionManager.cpp">
+      <Filter>Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OAO_Server\ClientSession.cpp">
+      <Filter>Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OAO_Server\PacketBuilder.cpp">
+      <Filter>Packets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
