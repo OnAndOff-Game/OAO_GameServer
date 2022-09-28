@@ -23,7 +23,11 @@
     <ClInclude Include="src\OAO_Server\ConnectionListener.h" />
     <ClInclude Include="src\OAO_Server\ConnectionManager.h" />
     <ClInclude Include="src\OAO_Server\exit_code.h" />
+    <ClInclude Include="src\OAO_Server\ip.h" />
     <ClInclude Include="src\OAO_Server\OAO_main.hpp" />
+    <ClInclude Include="src\OAO_Server\PacketInterface.h" />
+    <ClInclude Include="src\OAO_Server\PacketReader.h" />
+    <ClInclude Include="src\OAO_Server\PacketWriter.h" />
     <ClInclude Include="src\OAO_Server\server_type.h" />
     <ClInclude Include="src\OAO_Server\types.h" />
   </ItemGroup>
@@ -32,6 +36,9 @@
     <ClCompile Include="src\OAO_Server\ConnectionListener.cpp" />
     <ClCompile Include="src\OAO_Server\ConnectionManager.cpp" />
     <ClCompile Include="src\OAO_Server\exit_code.cpp" />
+    <ClCompile Include="src\OAO_Server\ip.cpp" />
+    <ClCompile Include="src\OAO_Server\PacketReader.cpp" />
+    <ClCompile Include="src\OAO_Server\PacketWriter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

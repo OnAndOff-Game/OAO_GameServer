@@ -24,10 +24,10 @@ namespace OAO
 			if (server.Initialize() == result::success) {
 				service.run();
 			}
-			//else
-			//{
-			//	server.Shutdown();
-			//}
+			else
+			{
+				server.Shutdown();
+			}
 		}
 		catch (std::exception &e)
 		{

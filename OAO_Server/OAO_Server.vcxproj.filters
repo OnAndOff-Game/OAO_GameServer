@@ -31,6 +31,18 @@
     <ClInclude Include="src\OAO_Server\server_type.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\OAO_Server\ip.h">
+      <Filter>Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OAO_Server\PacketInterface.h">
+      <Filter>Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OAO_Server\PacketReader.h">
+      <Filter>Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OAO_Server\PacketWriter.h">
+      <Filter>Connection</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\OAO_Server\BaseServer.cpp">
@@ -43,6 +55,15 @@
       <Filter>Connection</Filter>
     </ClCompile>
     <ClCompile Include="src\OAO_Server\ConnectionListener.cpp">
+      <Filter>Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OAO_Server\ip.cpp">
+      <Filter>Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OAO_Server\PacketReader.cpp">
+      <Filter>Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OAO_Server\PacketWriter.cpp">
       <Filter>Connection</Filter>
     </ClCompile>
   </ItemGroup>
