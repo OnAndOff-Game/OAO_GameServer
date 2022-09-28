@@ -36,3 +36,7 @@
 Debug/
 x64/
 packages/
+<<<<<<< HEAD
+=======
+Release/
+>>>>>>> edc06df0c588147a335279343a8d0f92cb03fb90
